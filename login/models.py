@@ -9,7 +9,7 @@ class User(models.Model):
         ('male', '男'),
         ('female', '女')
     )
-
+    switch2 = ()
     name = models.CharField(max_length=128, unique=True)
     password = models.CharField(max_length=256)
     email = models.EmailField(unique=True)
