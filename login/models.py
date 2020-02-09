@@ -10,6 +10,7 @@ class User(models.Model):
         ('female', '女')
     )
     dd = ()
+    dd3 = ()
     name = models.CharField(max_length=128, unique=True)
     password = models.CharField(max_length=256)
     email = models.EmailField(unique=True)
